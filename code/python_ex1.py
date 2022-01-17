@@ -25,7 +25,7 @@ def result(scores: int) -> str:
 
 
 class TestExamResults(unittest.TestCase):
-
+    """Check Results"""
     def test_fail(self):
         """Check Fail input"""
         self.assertEqual(result(40), FAIL)
