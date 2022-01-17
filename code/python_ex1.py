@@ -10,18 +10,18 @@ INVALID_INPUT = "invalid input"
 def result(scores: int) -> str:
     """The inputs to the program are exam scores expressed as percentages"""
     print(scores)
-    result = "invalid input"
+    results = "invalid input"
     in_range = scores in range(101)
     is_int = isinstance(scores, int)
     if not (is_int and in_range):
-        return result
+        return results
     if scores in range(46):
-        result = FAIL
+        results = FAIL
     elif scores in range(45, 81):
-        result = PASS
+        results = PASS
     elif scores in range(81, 101):
-        result = PWD
-    return result
+        results = PWD
+    return results
 
 
 class TestExamResults(unittest.TestCase):
