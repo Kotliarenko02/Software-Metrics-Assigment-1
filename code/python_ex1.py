@@ -27,18 +27,23 @@ def result(scores: int) -> str:
 class TestExamResults(unittest.TestCase):
 
     def test_fail(self):
+        """Check Fail input"""
         self.assertEqual(result(40), FAIL)
 
     def test_pass(self):
+        """Check Pass input"""
         self.assertEqual(result(60), PASS)
 
     def test_pass_with_distinction(self):
+        """Check Pass with distinction input"""
         self.assertEqual(result(90), PWD)
 
     def test_invalid_input_int(self):
+        """Check Invalid input"""
         self.assertEqual(result(110), INVALID_INPUT)
 
     def test_invalid_input_typr(self):
+        """Check Invalid input"""
         self.assertEqual(result('110'), INVALID_INPUT)
 
 
