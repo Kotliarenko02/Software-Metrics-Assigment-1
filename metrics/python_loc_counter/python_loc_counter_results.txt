@@ -1,0 +1,8 @@
+--------python_ex1.py LOC-------
+source_loc: 32
+single_comments_loc: 0
+single_docstring_loc: 0
+double_docstring_loc: 1
+total_comments_loc: 1
+blank_loc: 13
+total_line_count: 46

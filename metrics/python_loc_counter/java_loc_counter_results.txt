@@ -1,0 +1,8 @@
+--------HelloWorld.java LOC-------
+source_loc: 132
+single_comments_loc: 0
+single_docstring_loc: 0
+double_docstring_loc: 0
+total_comments_loc: 0
+blank_loc: 14
+total_line_count: 146
